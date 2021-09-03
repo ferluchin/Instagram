@@ -32,6 +32,7 @@
 		813D922826DE81DD00CC0DF5 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D922726DE81DD00CC0DF5 /* NotificationsViewController.swift */; };
 		813D922A26DE81F300CC0DF5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D922926DE81F300CC0DF5 /* ProfileViewController.swift */; };
 		813D922F26DE832A00CC0DF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D922E26DE832A00CC0DF5 /* LoginViewController.swift */; };
+		81A8F63526E1EDE400187987 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8F63426E1EDE400187987 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		813D922726DE81DD00CC0DF5 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		813D922926DE81F300CC0DF5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		813D922E26DE832A00CC0DF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81A8F63426E1EDE400187987 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8E4EB9433E1A24841086EC8A /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		F673C70F98DA91FE62D3D3A3 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 				812D78FB26DF4B3D00359244 /* DatabaseManager.swift */,
 				812D78FD26DF4C6600359244 /* AuthManager.swift */,
 				812D78FF26DF4CCC00359244 /* StorageManager.swift */,
+				81A8F63426E1EDE400187987 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				813D922826DE81DD00CC0DF5 /* NotificationsViewController.swift in Sources */,
 				812D78F326DF3C9400359244 /* SearchResultViewController.swift in Sources */,
 				813D922F26DE832A00CC0DF5 /* LoginViewController.swift in Sources */,
+				81A8F63526E1EDE400187987 /* Extensions.swift in Sources */,
 				812D78F126DF3C7100359244 /* SearchViewController.swift in Sources */,
 				813D922A26DE81F300CC0DF5 /* ProfileViewController.swift in Sources */,
 				812D78FE26DF4C6600359244 /* AuthManager.swift in Sources */,
@@ -502,6 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42R8LQVPNG;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42R8LQVPNG;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
